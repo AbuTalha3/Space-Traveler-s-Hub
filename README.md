@@ -84,6 +84,7 @@ git clone https://github.com/AbuTalha3/react_group_project.git
 
 - GitHub: [@Abu Talha](https://github.com/AbuTalha3)
 - Twitter: [@Abu Talha](https://twitter.com/AbuTalha8T)
+- Linkedin: [@Abu Talha](https://www.linkedin.com/in/abu-talha-najeeb-akhun-393b8b292/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
