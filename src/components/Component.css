@@ -1,0 +1,15 @@
+.navbarMain {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  gap: 12px;
+}
+
+.logoImage {
+  width: 60px;
+  height: 60px;
+}
