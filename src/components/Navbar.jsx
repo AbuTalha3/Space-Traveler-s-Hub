@@ -6,6 +6,7 @@ function Navbar() {
     <header>
       <nav>
         <img className="logo" src={logo} alt="Planet-pic" />
+        <h3 className="heading-main">Space Travelers&apos; Hub</h3>
       </nav>
     </header>
   );
