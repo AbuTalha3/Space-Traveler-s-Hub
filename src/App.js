@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <div className="App">
-      <h1>React group project</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
     </div>
   );
 }
