@@ -7,12 +7,13 @@ function Navbar() {
     <header>
       <nav className="navbarMain">
         <section className="logoContainer">
-          <img className="logoImage" src="/assets/images/planet.png" size={40} alt="Planet-pic" />
+          <img className="logoImage" src="/assets/images/planet.png" alt="Planet-pic" />
           <h3 className="headingMain">Space Travelers&apos; Hub</h3>
         </section>
         <section className="linksMain">
           <NavLink to="/">Rockets</NavLink>
           <NavLink to="/missions">Missions</NavLink>
+          <div className="divider" />
           <NavLink to="/Profile">Profile</NavLink>
         </section>
       </nav>

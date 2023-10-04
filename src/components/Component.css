@@ -2,6 +2,9 @@
   justify-content: space-between;
   display: flex;
   align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
 }
 
 .logoContainer {
@@ -16,12 +19,22 @@
   height: 60px;
 }
 
-.linksMain  {
+.linksMain {
   display: flex;
   gap: 10px;
-  margin-right: 15px; 
 }
 
 .linksMain a {
   color: rgb(123, 135, 220);
+  text-decoration: none;
+}
+
+.linksMain a:active {
+  text-decoration: underline;
+}
+
+.divider {
+  border-right: 2px solid gray;
+  height: 24px;
+  align-items: center;
 }
