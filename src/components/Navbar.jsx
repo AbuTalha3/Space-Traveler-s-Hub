@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from '../Images/planet.png';
 
 function Navbar() {
   return (
     <header>
       <nav className="navbar-main">
-        <img className="logo" src={logo} alt="Planet-pic" />
+        <img className="logo" src="/assets/images/planet.png" alt="Planet-pic" />
         <h3 className="heading-main">Space Travelers&apos; Hub</h3>
       </nav>
     </header>
