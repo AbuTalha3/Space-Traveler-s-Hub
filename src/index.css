@@ -16,3 +16,9 @@ code {
   width: 60px;
   height: 60px;
 }
+
+.navbar-main {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}

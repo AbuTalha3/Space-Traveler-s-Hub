@@ -4,7 +4,7 @@ import logo from '../Images/planet.png';
 function Navbar() {
   return (
     <header>
-      <nav>
+      <nav className="navbar-main">
         <img className="logo" src={logo} alt="Planet-pic" />
         <h3 className="heading-main">Space Travelers&apos; Hub</h3>
       </nav>
