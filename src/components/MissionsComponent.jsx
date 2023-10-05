@@ -21,36 +21,16 @@ const MissionsComponent = () => {
           <th style={{ width: '8%' }}>Status</th>
           <div style={{ width: '14%', backgroundColor: 'white' }} />
         </tr>
-        <tr>
-          <td style={{ width: '10%' }}>Mission</td>
-          <td style={{ width: '68%' }}>Description</td>
-          <td style={{ width: '8%' }} className="joinAction"><button type="button">Join Mission</button></td>
-          <td style={{ width: '14%' }} className="leaveAction"><button type="button">Leave Mission</button></td>
-        </tr>
-        <tr>
-          <td style={{ width: '10%' }}>Mission</td>
-          <td style={{ width: '68%' }}>Description</td>
-          <td style={{ width: '8%' }} className="joinAction"><button type="button">Join Mission</button></td>
-          <td style={{ width: '14%' }} className="leaveAction"><button type="button">Leave Mission</button></td>
-        </tr>
-        <tr>
-          <td style={{ width: '10%' }}>Mission</td>
-          <td style={{ width: '68%' }}>Description</td>
-          <td style={{ width: '8%' }} className="joinAction"><button type="button">Join Mission</button></td>
-          <td style={{ width: '14%' }} className="leaveAction"><button type="button">Leave Mission</button></td>
-        </tr>
-        <tr>
-          <td style={{ width: '10%' }}>Mission</td>
-          <td style={{ width: '68%' }}>Description</td>
-          <td style={{ width: '8%' }} className="joinAction"><button type="button">Join Mission</button></td>
-          <td style={{ width: '14%' }} className="leaveAction"><button type="button">Leave Mission</button></td>
-        </tr>
-        <tr>
-          <td style={{ width: '10%' }}>Mission</td>
-          <td style={{ width: '68%' }}>Description</td>
-          <td style={{ width: '8%' }} className="joinAction"><button type="button">Join Mission</button></td>
-          <td style={{ width: '14%' }} className="leaveAction"><button type="button">Leave Mission</button></td>
-        </tr>
+        {missions.map(mission => {
+          return(
+          <tr key={mission.mission_id}>
+            <td style={{ width: '10%' }} className="name">{mission.mission_name}</td>
+            <td style={{ width: '68%' }} className="description">{mission.description}</td>
+            <td style={{ width: '8%' }} className="joinAction"><button type="button">Join Mission</button></td>
+            <td style={{ width: '14%' }} className="leaveAction"><button type="button">Leave Mission</button></td>
+          </tr>
+          )
+        })}
       </table>
     </div>
   );
