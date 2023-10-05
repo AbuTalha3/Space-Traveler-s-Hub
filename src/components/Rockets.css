@@ -11,8 +11,28 @@
 }
 
 .imageContainerRocket {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
+}
+
+.rocketHeading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-top: -15px;
+}
+
+.rocketDescription {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: -18px;
+}
+
+.reserveButton {
+  background-color: rgb(82, 82, 214);
+  color: white;
+  border: none;
+  padding: 0.55rem;
 }
 
 .rocketImage {

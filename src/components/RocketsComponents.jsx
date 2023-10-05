@@ -13,46 +13,20 @@ function RocketsComponents() {
   return (
     <>
       <div className="outerContainer">
-        <div className="rocketContainer">
-          <div className="imageContainerRocket">
-            <img className="rocketImage" src="/assets/images/planet.png" alt="Rocket" />
-          </div>
-          <div className="rocketInfoContainer">
-            <p>Falcon1</p>
-            <p>The Missions section displays a list</p>
-            <button type="button" className="reserveButton">Reserve Rocket</button>
-          </div>
-        </div>
-        <div className="rocketContainer">
-          <div className="imageContainerRocket">
-            <img className="rocketImage" src="/assets/images/planet.png" alt="Rocket" />
-          </div>
-          <div className="rocketInfoContainer">
-            <p>Falcon1</p>
-            <p>The Missions section displays a list</p>
-            <button type="button" className="reserveButton">Reserve Rocket</button>
-          </div>
-        </div>
-        <div className="rocketContainer">
-          <div className="imageContainerRocket">
-            <img className="rocketImage" src="/assets/images/planet.png" alt="Rocket" />
-          </div>
-          <div className="rocketInfoContainer">
-            <p>Falcon1</p>
-            <p>The Missions section displays a list</p>
-            <button type="button" className="reserveButton">Reserve Rocket</button>
-          </div>
-        </div>
-        <div className="rocketContainer">
-          <div className="imageContainerRocket">
-            <img className="rocketImage" src="/assets/images/planet.png" alt="Rocket" />
-          </div>
-          <div className="rocketInfoContainer">
-            <p>Falcon1</p>
-            <p>The Missions section displays a list</p>
-            <button type="button" className="reserveButton">Reserve Rocket</button>
-          </div>
-        </div>
+        {
+          rocketArr.map((rocket) => (
+            <div className="rocketContainer" key={rocket.id}>
+              <div className="imageContainerRocket">
+                <img className="rocketImage" src={rocket.flickr_images[0]} alt="Rocket" />
+              </div>
+              <div className="rocketInfoContainer">
+                <p className="rocketHeading">{rocket.name}</p>
+                <p className="rocketDescription">{rocket.description}</p>
+                <button type="button" className="reserveButton">Reserve Rocket</button>
+              </div>
+            </div>
+          ))
+        }
       </div>
     </>
   );
