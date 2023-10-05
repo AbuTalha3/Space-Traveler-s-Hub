@@ -18,18 +18,21 @@ const missionsSlice = createSlice({
   initialState,
   reducers: {
   },
-  extraReducers: {
-    [fetchMissions.pending]: (state) => {
-      state.isLoading = true;
-    },
-    [fetchMissions.fulfilled]: (state, action) => {
-      state.isLoading = false;
-      state.missions = action.payload;
-    },
-    [fetchMissions.rejected]: (state, action) => {
-      state.isLoading = false;
-      state.errors = action.payload;
-    },
+
+  extraReducers: (builder) => {
+    builder.addCase(
+      fetchMissions.pending, (state) => ({ ...state, isLoading: true }),
+    );
+    builder.addCase(
+      fetchMissions.fulfilled,
+      (state, action) => ({ ...state, isLoading: false, missions: action.payload }),
+      // state.missions = action.payload;
+    );
+    builder.addCase(
+      fetchMissions.rejected,
+      (state, action) => ({ ...state, isLoading: false, errors: action.payload }),
+      // state.error = action.payload;
+    );
   },
 });
 export const { extraReducers } = missionsSlice.actions;
