@@ -1,0 +1,21 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rocketContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 12px;
+}
+
+.imageContainerRocket {
+  width: 120px;
+  height: 120px;
+}
+
+.rocketImage {
+  width: 120px;
+  height: 120px;
+}
