@@ -34,7 +34,7 @@
 }
 
 .divider {
+  align-items: center;
   border-right: 2px solid gray;
   height: 24px;
-  align-items: center;
 }
