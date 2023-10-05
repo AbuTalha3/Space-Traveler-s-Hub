@@ -19,7 +19,7 @@ const MissionsComponent = () => {
           <th style={{ width: '10%' }}>Mission</th>
           <th style={{ width: '68%' }}>Description</th>
           <th style={{ width: '8%' }}>Status</th>
-          <th style={{ width: '14%' }} />
+          <div style={{ width: '14%', backgroundColor: 'white' }} />
         </tr>
         <tr>
           <td style={{ width: '10%' }}>Mission</td>
