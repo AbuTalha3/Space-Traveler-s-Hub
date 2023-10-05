@@ -36,3 +36,14 @@ tr:nth-child(odd) {
   align-items: center;
   padding: 24px;
 }
+
+.description {
+  padding: 12px;
+}
+
+.name {
+  padding: 12px;
+  text-align: start;
+  margin-top: 0;
+  padding-top: 0;
+}
