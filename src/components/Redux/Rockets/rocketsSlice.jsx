@@ -21,17 +21,41 @@ const initialState = {
 const rocketSlice = createSlice({
   name: 'SpaceX Rockets',
   initialState,
-  reducers: {},
+  reducers: {
+    addReservation: (state, action) => {
+      const updatedRocketArr = state.rocketArr.find(
+        (rocketObj) => rocketObj.id === action.payload,
+      );
+      updatedRocketArr.reserved = !updatedRocketArr.reserved;
+    },
+    cancelReservation: (state, action) => {
+      const id = action.payload;
+      const updatedRocketArr = state.rocketArr.filter((rocketObj) => (rocketObj.id !== id));
+      return (
+        { ...state, reserved: false, rocketArr: updatedRocketArr }
+      );
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(getRocketData.pending,
         (state) => ({ ...state, isLoading: true }))
       .addCase(getRocketData.fulfilled,
-        (state, action) => ({ ...state, isLoading: false, rocketArr: action.payload }))
+        (state, action) => ({
+          ...state,
+          isLoading: false,
+          rocketArr: action.payload.map((rocket) => ({
+            id: rocket.id,
+            name: rocket.name,
+            description: rocket.description,
+            flickr_images: rocket.flickr_images,
+            reserved: false,
+          })),
+        }))
       .addCase(getRocketData.rejected,
         (state, action) => ({ ...state, isLoading: false, error: action.payload }));
   },
 });
 
-export const { extraReducers } = rocketSlice.actions;
+export const { addReservation, cancelReservation, extraReducers } = rocketSlice.actions;
 export default rocketSlice.reducer;
