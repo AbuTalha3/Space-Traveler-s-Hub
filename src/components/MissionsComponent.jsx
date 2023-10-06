@@ -36,7 +36,7 @@ const MissionsComponent = () => {
             </td>
             <td style={{ width: '14%' }} className="leaveAction">
               {
-              mission.reserved===false
+              mission.reserved === false
                 ? <JoinMissionCTA id={mission.mission_id} />
                 : <LeaveMissionCTA id={mission.mission_id} />
 }
