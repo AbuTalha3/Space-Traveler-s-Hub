@@ -1,6 +1,7 @@
 import React from 'react';
 import './Profile.css';
 import MissionsProfileComponent from './MissionsProfileComponent';
+import RocketProfileComponent from './RocketProfileComponent';
 
 const ProfileComponent = () => (
   <div className="profileContainer">
@@ -10,6 +11,7 @@ const ProfileComponent = () => (
     </section>
     <section className="rocketsSection">
       <h3>My Rockets</h3>
+      <RocketProfileComponent />
     </section>
   </div>
 );
