@@ -10,7 +10,6 @@ import './RocketCTA.css';
 function RocketsComponents() {
   const { rocketArr } = useSelector((store) => store.rockets);
   const dispatch = useDispatch();
-  console.log(rocketArr);
   useEffect(() => {
     dispatch(getRocketData());
   }, []);
