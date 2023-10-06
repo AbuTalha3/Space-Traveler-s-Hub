@@ -1,0 +1,24 @@
+.reserveRocketButton {
+  background-color: rgb(82, 82, 214);
+  color: white;
+  border: none;
+  padding: 0.55rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.reserveButton {
+  background-color: rgb(82, 82, 214);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  height: 20px;
+}
+
+.cancelReserveButton {
+  font-weight: 600;
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+  padding: 10px;
+}

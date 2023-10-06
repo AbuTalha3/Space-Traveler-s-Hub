@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getRocketData } from './Redux/Rockets/rocketsSlice';
+import CancelReservationCTA from './CancelReservationCTA';
+import ReserveRocketCTA from './ReserveRocketCTA';
+import RocketReservedCTA from './RocketReservedCTA';
 import './Rockets.css';
+import './RocketCTA.css';
 
 function RocketsComponents() {
   const { rocketArr } = useSelector((store) => store.rockets);
@@ -21,8 +25,19 @@ function RocketsComponents() {
               </div>
               <div className="rocketInfoContainer">
                 <p className="rocketHeading">{rocket.name}</p>
-                <p className="rocketDescription">{rocket.description}</p>
-                <button type="button" className="reserveButton">Reserve Rocket</button>
+                <div className="rocketDescription">
+                  <span className="reserveButton">
+                    {
+                  rocket.reserved
+                    ? <RocketReservedCTA /> : null
+                }
+                  </span>
+                  <p>{rocket.description }</p>
+                </div>
+                {
+                  rocket.reserved === false
+                    ? <ReserveRocketCTA id={rocket.id} /> : <CancelReservationCTA id={rocket.id} />
+                }
               </div>
             </div>
           ))
