@@ -7,7 +7,6 @@ import './CTA.css';
 
 const JoinMissionCTA = ({ id }) => {
   const dispatch = useDispatch();
-  console.log(id);
   const handleJoin = () => {
     dispatch(joinMission(id));
   };

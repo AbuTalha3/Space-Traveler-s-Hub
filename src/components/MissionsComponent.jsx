@@ -10,8 +10,6 @@ import './Missions.css';
 const MissionsComponent = () => {
   const dispatch = useDispatch();
   const { missionsArray } = useSelector((store) => store.missions);
-  console.log(missionsArray);
-
   useEffect(() => {
     if (!missionsArray.length) {
       dispatch(fetchMissions());
