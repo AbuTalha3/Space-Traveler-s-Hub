@@ -1,0 +1,26 @@
+.profileContainer {
+  display: flex;
+  gap: 48px;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: start;
+}
+
+.missionsContainer {
+  margin-bottom: 0;
+}
+
+.mission {
+  border: 1px solid gray;
+  padding: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.missionsSection {
+  width: 40%;
+}
+
+.rocketsSection {
+  width: 40%;
+}

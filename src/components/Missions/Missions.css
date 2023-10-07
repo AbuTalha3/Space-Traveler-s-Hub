@@ -1,0 +1,49 @@
+.tableHead {
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: start;
+  padding-left: 2px;
+  background-color: #fff !important;
+}
+
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding-left: 2px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(245, 244, 244);
+}
+
+.missionsContainer {
+  width: 95%;
+  margin: 24px auto;
+}
+
+.joinAction {
+  align-items: center;
+  padding: 8px;
+}
+
+.leaveAction {
+  align-items: center;
+  padding: 24px;
+}
+
+.description {
+  padding: 12px;
+}
+
+.name {
+  padding: 12px;
+  text-align: start;
+  margin-top: 0;
+  padding-top: 0;
+}
