@@ -1,5 +1,5 @@
 import React from 'react';
-import MissionsComponent from '../components/MissionsComponent';
+import MissionsComponent from '../components/Missions/MissionsComponent';
 
 const Missions = () => (
   <div>

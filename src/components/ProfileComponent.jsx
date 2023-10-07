@@ -1,7 +1,7 @@
 import React from 'react';
-import './Profile.css';
-import MissionsProfileComponent from './MissionsProfileComponent';
-import RocketProfileComponent from './RocketProfileComponent';
+import './MissionsProfile/Profile.css';
+import MissionsProfileComponent from './MissionsProfile/MissionsProfileComponent';
+import RocketProfileComponent from './RocketsProfile/RocketProfileComponent';
 
 const ProfileComponent = () => (
   <div className="profileContainer">

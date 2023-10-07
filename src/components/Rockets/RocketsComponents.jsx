@@ -1,18 +1,20 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getRocketData } from './Redux/Rockets/rocketsSlice';
-import CancelReservationCTA from './CancelReservationCTA';
-import ReserveRocketCTA from './ReserveRocketCTA';
-import RocketReservedCTA from './RocketReservedCTA';
+import { getRocketData } from '../../Redux/Rockets/rocketsSlice';
+import CancelReservationCTA from '../RocketCTA/CancelReservationCTA';
+import ReserveRocketCTA from '../RocketCTA/ReserveRocketCTA';
+import RocketReservedCTA from '../RocketCTA/RocketReservedCTA';
 import './Rockets.css';
-import './RocketCTA.css';
+import '../RocketCTA/RocketCTA.css';
 
 function RocketsComponents() {
   const { rocketArr } = useSelector((store) => store.rockets);
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getRocketData());
-  }, []);
+    if (!rocketArr.length) {
+      dispatch(getRocketData());
+    }
+  }, [dispatch, rocketArr]);
   return (
     <>
       <div className="outerContainer">

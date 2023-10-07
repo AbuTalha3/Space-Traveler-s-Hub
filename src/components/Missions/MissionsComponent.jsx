@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMissions } from './Redux/Missions/missionsSlice';
-import NotMemberCTA from './NotMemberCTA';
-import LeaveMissionCTA from './LeaveMissionCTA';
-import ActiveMemberCTA from './ActiveMemberCTA';
-import JoinMissionCTA from './JoinMissionCTA';
+import { fetchMissions } from '../../Redux/Missions/missionsSlice';
+import NotMemberCTA from '../MissionCTA/NotMemberCTA';
+import LeaveMissionCTA from '../MissionCTA/LeaveMissionCTA';
+import ActiveMemberCTA from '../MissionCTA/ActiveMemberCTA';
+import JoinMissionCTA from '../MissionCTA/JoinMissionCTA';
 import './Missions.css';
 
 const MissionsComponent = () => {

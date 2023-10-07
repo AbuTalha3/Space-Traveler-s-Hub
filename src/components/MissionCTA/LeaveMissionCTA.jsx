@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { cancelMission } from './Redux/Missions/missionsSlice';
+import { cancelMission } from '../../Redux/Missions/missionsSlice';
 import './CTA.css';
 
 const LeaveMissionCTA = ({ id }) => {

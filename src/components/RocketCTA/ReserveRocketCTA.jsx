@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
-import { addReservation } from './Redux/Rockets/rocketsSlice';
+import { addReservation } from '../../Redux/Rockets/rocketsSlice';
 import './RocketCTA.css';
 
 function ReserveRocketCTA({ id }) {

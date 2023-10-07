@@ -30,7 +30,7 @@
   text-decoration: none;
 }
 
-.linksMain a:active {
+.linksMain a.active {
   text-decoration: underline;
 }
 

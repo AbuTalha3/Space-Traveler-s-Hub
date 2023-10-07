@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './Profile.css';
+import '../MissionsProfile/Profile.css';
 
 function RocketProfileComponent() {
   const { rocketArr } = useSelector((store) => store.rockets);

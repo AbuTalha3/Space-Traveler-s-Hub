@@ -1,6 +1,3 @@
-# react_group_project
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
