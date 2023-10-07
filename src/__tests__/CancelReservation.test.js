@@ -10,7 +10,7 @@ jest.mock('react-redux', () => ({
   ...jest.requireActual('react-redux'),
   useDispatch: jest.fn(),
 }));
-jest.mock('../components/Redux/Rockets/rocketsSlice', () => ({
+jest.mock('../Redux/Rockets/rocketsSlice', () => ({
   cancelReservation: jest.fn(),
 }));
 

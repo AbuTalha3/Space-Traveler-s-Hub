@@ -13,7 +13,7 @@ jest.mock('react-redux', () => ({
 }));
 
 // Mock the fetchMissions action
-jest.mock('../components/Redux/Missions/missionsSlice', () => ({
+jest.mock('../Redux/Missions/missionsSlice', () => ({
   fetchMissions: jest.fn(),
 }));
 

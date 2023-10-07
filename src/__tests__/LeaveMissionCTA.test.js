@@ -9,7 +9,7 @@ jest.mock('react-redux', () => ({
   ...jest.requireActual('react-redux'),
   useDispatch: jest.fn(),
 }));
-jest.mock('../components/Redux/Missions/missionsSlice', () => ({
+jest.mock('../Redux/Missions/missionsSlice', () => ({
   cancelMission: jest.fn(),
 }));
 
