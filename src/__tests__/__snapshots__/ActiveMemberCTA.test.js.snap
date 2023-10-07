@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests Space Travel\`s Hub App test renders the ActiveMember component 1`] = `
+<div>
+  <button
+    className="activeMemberCTA"
+    type="button"
+  >
+    Active Member
+  </button>
+</div>
+`;
