@@ -2,8 +2,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { useDispatch, useSelector } from 'react-redux';
-import MissionsComponent from '../components/MissionsComponent';
-import { fetchMissions } from '../components/Redux/Missions/missionsSlice';
+import MissionsComponent from '../components/Missions/MissionsComponent';
+import { fetchMissions } from '../Redux/Missions/missionsSlice';
 
 // Mock useSelector and useDispatch
 jest.mock('react-redux', () => ({

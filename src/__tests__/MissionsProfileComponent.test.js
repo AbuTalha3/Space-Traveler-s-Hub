@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { useSelector } from 'react-redux';
 import '@testing-library/jest-dom';
-import MissionsProfileComponent from '../components/MissionsProfileComponent';
+import MissionsProfileComponent from '../components/MissionsProfile/MissionsProfileComponent';
 
 // Mock useSelector
 jest.mock('react-redux', () => ({
@@ -30,8 +30,9 @@ describe('MissionsProfileComponent', () => {
   ];
 
   beforeEach(() => {
-    // eslint-disable-next-line max-len
-    useSelector.mockImplementation((selectorFn) => selectorFn({ missions: { missionsArray: mockMissionsArray } }));
+    useSelector.mockImplementation(
+      (selectorFn) => selectorFn({ missions: { missionsArray: mockMissionsArray } }),
+    );
   });
 
   afterEach(() => {

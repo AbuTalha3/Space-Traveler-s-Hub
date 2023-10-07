@@ -2,8 +2,8 @@ import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { useDispatch } from 'react-redux';
-import CancelReservationCTA from '../components/CancelReservationCTA';
-import { cancelReservation } from '../components/Redux/Rockets/rocketsSlice';
+import CancelReservationCTA from '../components/RocketCTA/CancelReservationCTA';
+import { cancelReservation } from '../Redux/Rockets/rocketsSlice';
 
 // Mock useDispatch and cancelReservation
 jest.mock('react-redux', () => ({

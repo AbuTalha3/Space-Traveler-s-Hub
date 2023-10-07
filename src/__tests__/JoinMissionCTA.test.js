@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import { useDispatch } from 'react-redux';
-import JoinMissionCTA from '../components/JoinMissionCTA';
-import { joinMission } from '../components/Redux/Missions/missionsSlice';
+import JoinMissionCTA from '../components/MissionCTA/JoinMissionCTA';
+import { joinMission } from '../Redux/Missions/missionsSlice';
 
 // Mock useDispatch and joinMission
 jest.mock('react-redux', () => ({
