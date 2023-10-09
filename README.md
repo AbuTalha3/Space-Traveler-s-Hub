@@ -70,6 +70,7 @@ git clone https://github.com/AbuTalha3/react_group_project.git
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="author"></a>
+## Being a pair programming project it made in collaboration with two partners:-
 
 **Mayito Ismail**
 
