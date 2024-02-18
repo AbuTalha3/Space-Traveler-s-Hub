@@ -110,7 +110,7 @@ If you like this project checkout my other repositories on my github profile
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the microverse staff for doing their best to equip us with the necesarry skills to start our software engineering carreers. I would also like to thank my coding partners who have helped me along the way.
+I would like to thank the Microverse staff for doing their best to equip us with the necessary skills to start our software engineering careers. I would also like to thank my coding partners who have helped me along the way.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
