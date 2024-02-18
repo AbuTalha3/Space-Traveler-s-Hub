@@ -15,9 +15,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [react_group_project] <a name="about-project"></a>
+# 📖 [Space Travelers' Hub] <a name="about-project"></a>
 
-**[react_group_project]** is a React Javascript website project which makes use of  react Javascript to hit the API, it displays a list of missions , rockets from the API to the user, the user is able to make a booking for the mission or cancel the booking of the earlier booked mission.The user is able to list a list of booked missions and rockets. I t has got different pages created using react router.
+**[Space Travelers' Hub]** is a React Javascript website project which makes use of  react Javascript to hit the API, it displays a list of missions , rockets from the API to the user, the user is able to make a booking for the mission or cancel the booking of the earlier booked mission.The user is able to list a list of booked missions and rockets. I t has got different pages created using react router.
 We have also performed different tests for different components.
 
 ## 🛠 Built With <a name="built-with"></a>
