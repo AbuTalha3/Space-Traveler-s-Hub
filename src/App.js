@@ -1,19 +1,20 @@
-import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import Rockets from './pages/Rockets';
-import Missions from './pages/Missions';
-import Profile from './pages/Profile';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import RocketsPage from './pages/RocketsPage';
+import MissionsPage from './pages/MissionsPage';
+import MyProfilePage from './pages/MyProfilePage';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Rockets />} />
-          <Route path="/Missions" element={<Missions />} />
-          <Route path="/profile" element={<Profile />} />
-        </Route>
+        <Route path="/" element={<RocketsPage />} />
+        <Route path="Missions" element={<MissionsPage />} />
+        <Route path="MyProfile" element={<MyProfilePage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
