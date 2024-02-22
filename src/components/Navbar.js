@@ -11,17 +11,17 @@ const Navbar = () => (
     <ul className="nav-ul">
       <li>
         <NavLink className={({ isActive }) => (isActive ? 'rockets-link active-link' : 'none')} to="/">
-          Rockets
+          ROCKETS
         </NavLink>
       </li>
       <li>
         <NavLink className={({ isActive }) => (isActive ? 'missions-link active-link' : 'none')} to="Missions">
-          Missions
+          MISSIONS
         </NavLink>
       </li>
       <li>
         <NavLink className={({ isActive }) => (isActive ? 'myprofile-link active-link' : 'none myprofile-none')} to="MyProfile">
-          My Profile
+          MY PROFILE
         </NavLink>
       </li>
     </ul>
