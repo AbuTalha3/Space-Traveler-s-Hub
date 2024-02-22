@@ -15,9 +15,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [react_group_project] <a name="about-project"></a>
+# 📖 [SPACE TRAVELERS HUB] <a name="about-project"></a>
 
-**[react_group_project]** is a React Javascript website project which makes use of  react Javascript to hit the API, it displays a list of missions , rockets from the API to the user, the user is able to make a booking for the mission or cancel the booking of the earlier booked mission.The user is able to list a list of booked missions and rockets. I t has got different pages created using react router.
+**[SPACE TRAVELERS HUB]** is a React Javascript website project which makes use of  react Javascript to hit the API, it displays a list of missions , rockets from the API to the user, the user is able to make a booking for the mission or cancel the booking of the earlier booked mission.The user is able to list a list of booked missions and rockets. I t has got different pages created using react router.
 We have also performed different tests for different components.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -42,6 +42,8 @@ We have also performed different tests for different components.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### [Live Demo](https://react-group-project-k1iu-gekdvy030-abutalha3s-projects.vercel.app/)
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -61,7 +63,7 @@ In order to run this project you need the following:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone https://github.com/AbuTalha3/react_group_project.git
+git clone https://github.com/AbuTalha3/Space-Traveler-s-Hub
 ```
 
 - Navigate to the location of the folder in your machine:
@@ -97,7 +99,7 @@ git clone https://github.com/AbuTalha3/react_group_project.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AbuTalha3/Space-Traveler-s-Hub/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
