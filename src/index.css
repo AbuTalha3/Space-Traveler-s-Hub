@@ -8,7 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: 'fonte', sans-serif;
+  font-family: 'Popins', sans-serif;
 }
 
 body {
@@ -43,10 +43,6 @@ body {
   align-items: center;
   list-style-type: none;
   gap: 25px;
-  text-shadow:
-    0 0 3px black,
-    0 0 12px black,
-    0 0 40px black;
 }
 
 .nav-ul a {
@@ -214,7 +210,7 @@ body {
   border-radius: 15px;
   text-align: center;
   padding: 20px 60px;
-  border-bottom: 15px solid rgb(0, 0, 0, 0.3);
+  border-bottom: 15px solid rgb(0, 0, 0);
   background-image: linear-gradient(to right, rgba(13, 81, 241, 0.1), rgb(0, 0, 0, 0.7), transparent);
   cursor: pointer;
 }

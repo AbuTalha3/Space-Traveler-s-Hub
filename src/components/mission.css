@@ -37,10 +37,6 @@
 
 .titles {
   color: white;
-  text-shadow:
-    0 0 5px white,
-    0 0 15px white,
-    0 0 36px white;
   font-weight: bold;
   animation: animationTitles 2s;
 }
@@ -49,11 +45,6 @@
   text-align: center;
   width: 200px;
   color: rgb(162, 190, 255);
-  text-shadow:
-    0 0 3px rgb(84, 136, 255),
-    0 0 12px rgb(84, 136, 255),
-    0 0 40px rgb(84, 136, 255),
-    0 0 65px rgb(84, 136, 255);
   font-weight: bold;
   animation: animation 2s;
 }
@@ -61,10 +52,6 @@
 .descriptions {
   animation: animationTitles 2s;
   color: white;
-  text-shadow:
-    0 0 5px white,
-    0 0 15px white,
-    0 0 36px white;
 }
 
 .mission-description {
@@ -75,11 +62,6 @@
 
 .status {
   color: white;
-  text-shadow:
-    0 0 5px white,
-    0 0 15px white,
-    0 0 36px white;
-  animation: animationTitles 2s;
 }
 
 .mission-status {
@@ -111,10 +93,6 @@
   border-radius: 5px;
   font-size: 15px;
   width: 140px;
-  box-shadow:
-    0 0 3px rgb(48, 110, 255),
-    0 0 12px rgb(48, 110, 255),
-    0 0 40px rgb(48, 110, 255);
 }
 
 .leave-btn {
@@ -125,10 +103,6 @@
   background-color: red;
   border: none;
   color: white;
-  box-shadow:
-    0 0 5px red,
-    0 0 15px red,
-    0 0 36px red;
 }
 
 .join-btn {
@@ -139,10 +113,6 @@
   border: none;
   background-color: white;
   color: black;
-  box-shadow:
-    0 0 5px white,
-    0 0 15px white,
-    0 0 36px white;
 }
 
 @keyframes animationTitles {
