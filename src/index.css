@@ -41,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   list-style-type: none;
+  font-weight: bold;
   gap: 25px;
 }
 
@@ -126,7 +127,7 @@ body {
 
 .single-rocket-texts h2 {
   filter: invert(100%);
-  color: rgb(244, 198, 13);
+  color: rgb(68, 21, 198);
 }
 
 .missions-list {
