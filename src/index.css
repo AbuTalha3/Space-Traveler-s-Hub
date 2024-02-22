@@ -162,7 +162,6 @@ body {
   background-color: white;
   font-size: 20px;
   color: blue;
-
 }
 
 .activeButton {
@@ -171,7 +170,7 @@ body {
   width: 150px;
   border: none;
   transition-duration: 0.5s;
-  color:blanchedalmond;
+  color: blanchedalmond;
 }
 
 .activeButton:hover,
